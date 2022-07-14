@@ -1,10 +1,11 @@
 
+// Fix the error with the use of define_x
 fn main() {
-    let (x, y);
-    (x,..) = (3, 4);
-    [.., y] = [1, 2];
-    // Fill the blank to make the code work
-    assert_eq!([x,y], [3,2]);
+    let x = define_x();
+    println!("{}, world", x); 
+}
 
-    println!("Success!");
-} 
+fn define_x() -> String{
+    let x = "hello".to_string();
+    return x;
+}
