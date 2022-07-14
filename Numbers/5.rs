@@ -7,4 +7,4 @@ fn main() {
 }
 
 
-//sum of u8 should be =<256 and i8 should be =<127
+//sum of u8 should be =<255 and i8 should be =<127
