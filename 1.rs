@@ -7,4 +7,4 @@ fn main() {
     println!("Success!");
 }
 
-//Initialized x ignored y since there was no any error
+//Initialized x ignored y since there was no error
