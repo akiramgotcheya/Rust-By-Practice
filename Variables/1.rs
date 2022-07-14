@@ -1,10 +1,11 @@
 
+// Fix the error below with least amount of modification to the code
 fn main() {
-    let (x, y);
-    (x,..) = (3, 4);
-    [.., y] = [1, 2];
-    // Fill the blank to make the code work
-    assert_eq!([x,y], [3,2]);
+    let x: i32 = 5; // Uninitialized but used, ERROR !
+    let _y: i32; // Uninitialized but also unused, only a Warning !
 
+    assert_eq!(x, 5);
     println!("Success!");
-} 
+}
+
+//initialised x and ignored y since there was no error
