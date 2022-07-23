@@ -1,28 +1,20 @@
+// Question 10
+// Fill in the blank
+
 fn main() {
-    let mut count = 0u32;
+    let mut counter = 0;
 
-    println!("Let's count until infinity!");
+    let result = loop {
+        counter += 1;
 
-    // Infinite loop
-    loop {
-        count += 1;
-
-        if count == 3 {
-            println!("three");
-
-            // Skip the rest of this iteration
-            continue;
+        if counter == 10 {
+            break counter*2;
         }
+    };
 
-        println!("{}", count);
+    assert_eq!(result, 20);
 
-        if count == 5 {
-            println!("OK, that's enough");
-
-            break;
-        }
-    }
-
-    assert_eq!(count, 5);
     println!("Success!");
 }
+
+// For program to print successs the result=20. We are achieving this by multiplying counter value with 2 and return it using break.  
