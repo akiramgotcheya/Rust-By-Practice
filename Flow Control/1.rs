@@ -1,3 +1,6 @@
+//1st Question
+// Fill in the blanks
+
 fn main() {
     let n = 5;
 
@@ -9,3 +12,5 @@ fn main() {
         println!("{} is zero", n);
     }
 } 
+
+//In Ln 9 & 11 else if & else expression was missing.
