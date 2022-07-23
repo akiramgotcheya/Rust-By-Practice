@@ -14,4 +14,4 @@ fn main() {
 }
 
 
-// two solutions - either remove line containing let x = x or remove x+=3
+// We can solve it in 2 different ways - either remove Ln5 containing let x = x or 6 containing x += 3.
