@@ -1,5 +1,6 @@
-
+// Question 3
 // Fix the error below with least amount of modification
+
 fn main() {
     let x: i32 = 10;
     {
@@ -8,4 +9,5 @@ fn main() {
     }
     println!("The value of x is {}", x); 
 }
- // removed y from line 9
+
+ // removed y from line 9 since its out of scope
