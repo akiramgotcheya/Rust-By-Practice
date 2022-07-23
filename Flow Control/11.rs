@@ -1,10 +1,13 @@
+// Question 11
+// Fill in the blank
+
 fn main() {
     let mut count = 0;
     'outer: loop {
         'inner1: loop {
             if count >= 20 {
                 // This would break only the inner1 loop
-                break 'inner1; // `break` is also ok 
+                break 'inner1; // `break` is also works.
             }
             count += 2;
         }
@@ -23,5 +26,8 @@ fn main() {
     }
 
     assert!(count == 30);
+
     println!("Success!");
 }
+
+// Ln28 count value is 30 since the previous loop breaks at 30
