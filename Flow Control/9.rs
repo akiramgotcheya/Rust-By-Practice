@@ -31,4 +31,4 @@ fn main() {
     println!("Success!");
 }
 
-// adding continue in Ln17 to skip to next count and break in Ln25 to end loop
+// Using continue in Ln17 to skip to next count and break in Ln25 to end loop
