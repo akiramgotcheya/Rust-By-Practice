@@ -1,3 +1,6 @@
+// Question 9
+// Fill in the blanks
+
 fn main() {
     let mut count = 0u32;
 
@@ -24,5 +27,8 @@ fn main() {
     }
 
     assert_eq!(count, 5);
+
     println!("Success!");
 }
+
+// adding continue in Ln17 to skip to next count and break in Ln25 to end loop
