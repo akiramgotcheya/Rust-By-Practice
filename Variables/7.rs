@@ -1,8 +1,9 @@
+// Question 7
+// Warning: unused variable: `x`
+
 fn main() {
     let x = 1; 
     println!("{}", x)
 }
 
-// Warning: unused variable: `x`
-
-// added print macro
+// add print macro in Ln3
