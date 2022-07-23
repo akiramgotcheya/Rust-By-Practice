@@ -1,4 +1,6 @@
+// Question 5
 // Only modify `assert_eq!` to make the `println!` work(print `42` in terminal)
+
 fn main() {
     let x: i32 = 5;
     {
@@ -12,4 +14,4 @@ fn main() {
     println!("{}", x); // Prints "42".
 }
 
-// interchanged assert_eq! - x value
+// interchanged assert_eq! - x value in Ln8 & 11.
