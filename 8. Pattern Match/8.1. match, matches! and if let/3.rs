@@ -1,3 +1,5 @@
+
+
 // Question 3
 // Fill in the blanks
 
@@ -11,6 +13,7 @@ enum Message {
 fn main() {
     let msgs = [
         Message::Quit,
+        Message::Write(String::from("text")),
         Message::Move{x:1, y:3},
         Message::ChangeColor(255,255,0)
     ];
@@ -27,19 +30,18 @@ fn show_message(msg: Message) {
         Message::Move{x:a, y:b}=> { // match  Message::Move
             assert_eq!(a, 1);
             assert_eq!(b, 3);
-            println!("Move in the x direction {} and in the y direction {}", a,b);
+            println!("Move in the x direction {} and in the y direction {}.", a,b);
         },
         Message::ChangeColor(r, g, b) => {
             assert_eq!(r, 255);
             assert_eq!(g, 255);
             assert_eq!(b, 0);
-            println!("Change the color to red {}, green {}, and blue {}", r, g, b );
+            println!("Change the color to red {}, green {}, and blue {}.", r, g, b );
         }
-         Message::Write(_) => {
-         
-         println!("no data in these variants")
-             
-         }
+        
+        Message::Write(text) => {
+        println!("No data in the Write variant.")
+        }
         
         Message::Quit => {
         println!("The Quit variant has no data to destructure.");
