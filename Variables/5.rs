@@ -14,4 +14,4 @@ fn main() {
     println!("{}", x); // Prints "42"
 }
 
-// interchanged assert_eq! - x value in Ln8 & 11.
+// Out of scopes, interchanged assert_eq! - x value in Ln8 & 11.
