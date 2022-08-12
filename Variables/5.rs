@@ -11,7 +11,7 @@ fn main() {
     assert_eq!(x, 5);
 
     let x =  42;
-    println!("{}", x); // Prints "42".
+    println!("{}", x); // Prints "42"
 }
 
 // interchanged assert_eq! - x value in Ln8 & 11.
