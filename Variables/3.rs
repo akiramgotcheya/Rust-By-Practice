@@ -10,4 +10,4 @@ fn main() {
     println!("The value of x is {}", x); 
 }
 
- // removed y from line 9 since its out of scope
+ // removed y from Ln9 since its out of scope
