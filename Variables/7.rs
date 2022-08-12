@@ -6,4 +6,4 @@ fn main() {
     println!("{}", x)
 }
 
-// add print macro in Ln3
+// x initialised but not used. Add print macro in Ln3
