@@ -1,5 +1,6 @@
-
+// Question 3
 // Modify `assert_eq!` to make it work
+
 fn main() {
     let x = 5;
     assert_eq!("i32".to_string(), type_of(&x));
@@ -13,4 +14,4 @@ fn type_of<T>(_: &T) -> String {
 }
 
   
-  //modified assert_eq from u32 to i32
+// Type of x is i32 not u32 so changed assert_eq value from u32 to i32
