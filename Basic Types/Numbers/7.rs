@@ -1,5 +1,6 @@
+// Question 7
+// Replace ? with your answer
 
-//  Replace ? with your answer
 fn main() {
     let x = 1_000.000_1; // f64
     let y: f32 = 0.12; // f32
