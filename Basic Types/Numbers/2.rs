@@ -1,9 +1,10 @@
+// Question 2
+// Fill the blank
 
-//  Fill the blank
 fn main() {
     let v: u16 = 38_u8 as u16;
 
     println!("Success!");
 }
 
-// type u16 is the answer
+// Converting into type u16
